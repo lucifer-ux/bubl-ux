@@ -25,12 +25,12 @@ const Hero = () => {
                         </div>
                         </h1>
                         <p>{data.description}</p>
-                        <form>
+                        {/* <form>
                             <div className="form-group">
                                 <input type="email" placeholder="Name@company.com" />
                                 <button type="submit" >Drop your mail</button>
                             </div>
-                        </form>
+                        </form> */}
                     </div>
 
 

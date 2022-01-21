@@ -13,9 +13,10 @@ const Header = () => {
                 </Link>
             </div>
             <div className="btn-try">
-                <button>
+                <a href="https://tally.so/r/nGkq2n"><button>
                     Early Access
                 </button>
+                </a>
             </div>
         </header>
     )

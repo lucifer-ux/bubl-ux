@@ -32,13 +32,7 @@ const Footer = () => {
                 <h5>{data.description}</h5>
             </div>
 
-            <form>
-                <div className="form-group">
-                    <input type="email" placeholder="Name@company.com" />
-                    <button type="submit" >Drop your mail</button>
-                </div>
-                <br/>
-            </form>
+           
             
             <br/>
            
