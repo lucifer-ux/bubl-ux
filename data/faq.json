@@ -1,0 +1,53 @@
+{
+  "title": "FAQ",
+  "rows": [
+    {
+      "title": "What is a Bubl?",
+      "content": "  A Bubl is a Pool of crypto assets like (Bitcoin, Ethereum) in a specified weighting scheme to reflect a certain objective (ideas, themes, strategies). A Bubl has a minimum of 2 crypto assets and a maximum of 15 crypto assets."
+    },
+    {
+      "title": "Which Bubl’s should I invest in?",
+      "content": "Bubl work best when used for long-term investing. So ideally, you should be investing in a Bubl whose theme/strategy you think will do well in long run. Additionally, you can use risk labels assigned to Bubl’s to find one that suits your risk appetite."
+    },
+    {
+      "title": "How do I track my Bubl’s?",
+      "content": "You can track your Bubl’s from the wallet feature of both the web-application and the mobile application and make changes to it."
+    },
+    {
+      "title": "Can I modify Bubl's?",
+      "content": "With Bubl, you have complete flexibility over your investments, so you can add or remove crypto assets anytime with the 'manage' option or you can assign us to manage your portfolio for you."
+    },
+    {
+      "title": "Are there any lock-in periods?",
+      "content": "There are no lock-in periods, so you may sell your Bubl’s anytime. As a concept however, Bubl’s work best when used for long-term investing."
+    },
+    {
+      "title": "Start an SIP/AIP",
+      "content": "Once you have invested in a Bubl, you can safeguard your investments from market volatility by starting SIP to invest more regularly. When your SIP instalment is due, you can confirm investing more in 2 clicks."
+    },
+    {
+      "title": "How is it different from buying directly from an exchange?",
+      "content": "Investing in a pool of crypto assets gives you diversification benefits that minimize asset-specific risk. Instead of picking assets, you can invest in ideas you are bullish about in with research-backed portfolios that are tied to relatable themes."
+    },
+    {
+      "title": "What are the fees involved in a bubl?",
+      "content": "You are charged a one-time flat fee of ₹ 25 + GST / 0.5% of the transaction (whichever is lower) when you exit a Bubl (no additional fees for further orders in the same Bubl). Standard exchange charges apply."
+    }
+  ],
+  "styles": {
+    "bgColor": "white",
+    "titleTextColor": "blue",
+    "titleTextSize": "48px",
+    "rowTitleColor": "blue",
+    "rowTitleTextSize": "medium",
+    "rowContentColor": "grey",
+    "rowContentTextSize": "16px",
+    "rowContentPaddingTop": "10px",
+    "rowContentPaddingBottom": "10px",
+    "rowContentPaddingLeft": "50px",
+    "rowContentPaddingRight": "150px",
+    "arrowColor": "red",
+    "transitionDuration": "1s",
+    "timingFunc": "ease"
+  }
+}

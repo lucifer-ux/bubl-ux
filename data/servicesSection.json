@@ -1,0 +1,23 @@
+{
+    "title": "Featured Services",
+    "blocks": [
+        {
+            "id": 1,
+            "title": "Stay in control",
+            "description": "We dont hold control over your assets, view how your assets are performing and invest without any lock-in periods.",
+            "icon": "/services/service3.svg"
+        },
+        {
+            "id": 2,
+            "title": "Created by professionals",
+            "description": "Bubl's are managed by leading crypto experts and built upon researched backed themes.",
+            "icon": "/services/service2.svg"
+        },
+        {
+            "id": 3,
+            "title": "Designed for you",
+            "description": "Bubl invests into multiple crypto assets which protects you against the volatility of a specific asset, thus making bubl's less riskier.",
+            "icon": "/services/service4.svg"
+        }
+    ]
+}
