@@ -32,11 +32,7 @@ const Footer = () => {
                 <h5>{data.description}</h5>
             </div>
 
-<<<<<<< HEAD
            
-=======
-          
->>>>>>> ca89dba9258e9ccb74dfd0605e3690b9de183bad
             
             <br/>
            
@@ -52,7 +48,3 @@ const Footer = () => {
 };
 
 export default Footer;
-//FaInstagram
-//FiTwitter
-//IoLogoLinkedin
-//SiDiscord
