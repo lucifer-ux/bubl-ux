@@ -38,9 +38,9 @@ const Footer = () => {
            
         </footer>
         <div className='end'>
-        <a href={add} className='links'><FcPrivacy/><span className='hide'>-</span> Privacy Policy</a>
-            <br/>
-            <a href={add1} className='links'><FcRules/><span className='hide'>-</span>   Terms of use</a>
+        <a href={add} className='links'><FcPrivacy/><br/>Privacy Policy</a>
+            
+            <a href={add1} className='links'><FcRules/><br/>Terms of use</a>
         <div className='footer-heart' >made with <span className='hide'>-</span><AiOutlineHeart style={heart}/><span className='hide'>-</span> in India</div>
         </div>
         </>

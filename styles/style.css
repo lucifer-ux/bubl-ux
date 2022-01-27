@@ -54,6 +54,49 @@ header .btn-try button {
     display: flex;
     flex-direction: column;
     justify-content: center;
+}   
+    @media only screen and (max-width:786px) {
+        #editable{
+            display: none;
+        }
+       
+    }
+
+    @media only screen and (max-height:786px) {
+        #editable{
+            display: none;
+        }
+       
+    }
+
+    #bars{
+        display: none;
+    }
+    @media only screen and (max-width:786px) {
+        #bars{
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-100%,75%);
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+    }
+    @media only screen and (max-height:800px) {
+        #bars{
+            display: block;
+            position: absolute;
+            top: 0;
+            right: 0;
+            transform: translate(-100%,75%);
+            font-size: 1.8rem;
+            cursor: pointer;
+        }
+    }
+
+.edited{
+    margin-right: 2%;
 }
 
 .hero-section .container-hero {
@@ -75,7 +118,7 @@ header .btn-try button {
     flex-direction: column;
 }
 .hero-animation{
-    height: 80px;
+    height: 70px;
     display: inline-block;
     overflow: hidden;
     color: #000;
@@ -85,11 +128,22 @@ header .btn-try button {
     animation: rotate 7s infinite;
 }
 @keyframes rotate {
-    0%{transform: translateY(0px);}
+    0%{transform: translateY(-10px);}
     25%{transform: translateY(-120px);}
-    50%{transform: translateY(-200px);}
-    75%{transform: translateY(-300px);}
-    100%{transform: translateY(0px);}
+    50%{transform: translateY(-220px);}
+    75%{transform: translateY(-320px);}
+    100%{transform: translateY(-10px);}
+}
+
+@media only screen and (max-width:1149){
+.hero-animation{
+    height: 50px;
+}
+}
+@media only screen and (max-height:1149){
+    .hero-animation{
+        height: 50px;
+    }
 }
 .hide{
     visibility: hidden;
@@ -443,21 +497,24 @@ footer {
     column-gap: 100px;  
 }
 .footer-heart{
-    display: flex;
+    /* display: flex;
     align-items: left;
     justify-content: left;
     padding-left:60px;
-    padding-bottom:60px;
-    font-size: 1.5rem;
+    padding-bottom:60px; */
+    font-size: 1.5rem; 
 }
 .end{
-    display: inline-block;
+    display: flex;
+    column-gap: 25%;  
+   padding-left: 7%;
+    padding-bottom: 10%;
 }
 .links{
-    display: flex;
+    
     align-items: right;
     justify-content: right;
-    padding-left:1500px;
+    float: right;
     font-size: 1.5rem;
 }
 footer .header-footer {
@@ -468,8 +525,8 @@ footer .header-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 100px;
-    margin-right: 1000px;
+    padding-left: 100px;
+    margin-right: 25%;
 }
 footer .header-footer h3 {
     text-align: center;
