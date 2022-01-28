@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2family=Poppins:wght@300;400;500;600;700&display=swap');
 /** Start Header CSS **/
 
+#images{
+     border:#8E22F4 solid 2px;
+}
 header {
     width: 1290px;
     margin: auto;
@@ -55,45 +58,7 @@ header .btn-try button {
     flex-direction: column;
     justify-content: center;
 }   
-    @media only screen and (max-width:786px) {
-        #editable{
-            display: none;
-        }
-       
-    }
-
-    @media only screen and (max-height:786px) {
-        #editable{
-            display: none;
-        }
-       
-    }
-
-    #bars{
-        display: none;
-    }
-    @media only screen and (max-width:786px) {
-        #bars{
-            display: block;
-            position: absolute;
-            top: 0;
-            right: 0;
-            transform: translate(-100%,75%);
-            font-size: 1.8rem;
-            cursor: pointer;
-        }
-    }
-    @media only screen and (max-height:800px) {
-        #bars{
-            display: block;
-            position: absolute;
-            top: 0;
-            right: 0;
-            transform: translate(-100%,75%);
-            font-size: 1.8rem;
-            cursor: pointer;
-        }
-    }
+ 
 
 .edited{
     margin-right: 2%;
@@ -135,16 +100,7 @@ header .btn-try button {
     100%{transform: translateY(-10px);}
 }
 
-@media only screen and (max-width:1149){
-.hero-animation{
-    height: 50px;
-}
-}
-@media only screen and (max-height:1149){
-    .hero-animation{
-        height: 50px;
-    }
-}
+
 .hide{
     visibility: hidden;
 }
@@ -494,7 +450,11 @@ footer {
 }
 .footer-icons{
     display: flex;
-    column-gap: 100px;  
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    column-gap: 40px;  
+    
 }
 .footer-heart{
     /* display: flex;
@@ -507,7 +467,8 @@ footer {
 .end{
     display: flex;
     column-gap: 25%;  
-   padding-left: 7%;
+   align-items: center;
+   justify-content: center;
     padding-bottom: 10%;
 }
 .links{
@@ -525,8 +486,8 @@ footer .header-footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-left: 100px;
-    margin-right: 25%;
+    padding-left: 20px;
+    margin-right: 10%;
 }
 footer .header-footer h3 {
     text-align: center;

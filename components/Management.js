@@ -25,7 +25,7 @@ const Management = () => {
                     {data.blocks.map(managment =>
                         <div className="item" key={managment.id}>
                             <div className="left-side">
-                                <Image src={managment.image} alt="Mockup" width={650} height={650} />
+                                <section src={managment.image} alt="Mockup" width={650} height={650} id='images' />
                             </div>
                             <div className="right-side">
                                 <h3>{managment.title}</h3>

@@ -19,11 +19,11 @@ const Footer = () => {
 
             <div className="header-footer">
               <div className='footer-icons'> 
-              <a href='https://instagram.com/bubl_hq?utm_medium=copy_link' target={'blank'}> <FaInstagram size={50} style={style}/></a>
-              <a href='https://twitter.com/bubl_hq?s=21' target={'blank'}>  <FiTwitter size={50} style={style}/> </a>
-              <a href='https://linkedin.com/company/bubl-hq' target={'blank'}> <IoLogoLinkedin size={50} style={style}/> </a>
-              <a href='/'> <SiDiscord size={50} style={style}/> </a>
-              <a target="blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=Bubl.hq@gmail.com&body=my-text">  <SiGmail size={50} style={style}/> </a>
+              <a href='https://instagram.com/bubl_hq?utm_medium=copy_link' target={'blank'}> <FaInstagram size={40} style={style}/></a>
+              <a href='https://twitter.com/bubl_hq?s=21' target={'blank'}>  <FiTwitter size={40} style={style}/> </a>
+              <a href='https://linkedin.com/company/bubl-hq' target={'blank'}> <IoLogoLinkedin size={40} style={style}/> </a>
+              <a href='/'> <SiDiscord size={40} style={style}/> </a>
+              <a target="blank" href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=Bubl.hq@gmail.com&body=my-text">  <SiGmail size={40} style={style}/> </a>
                 </div>
                 <br/>
                
