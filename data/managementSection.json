@@ -2,27 +2,22 @@
     "blocks": [
         {
             "id": 1,
-            "title": "Buy multiple crypto assets at once",
-            "description": "Buy upto 15 crypto assets at once, in the form of bubl's that are either currated by experts or custom made.",
-            "image": ""
+            "title": "Invest in multiple crypto assets at once",
+            "description": "Invest upto 15 crypto assets at once, in the form of bubl's that are either currated by experts or custom made.",
+            "image": "/management/homepage.svg"
         },
         {
             "id": 2,
             "title": "Invest into researched backed themes",
             "description": "Strategies that are suggested by experts for a basket of crypto assets that maximize your returns while minimizing your losses.",
-            "image": ""
+            "image": "/management/custom.svg"
         },
+
         {
             "id": 3,
-            "title": "Create your own bubl's",
-            "description": "Invest into your own themes or ideas by creating bubl's which hold upto 15 crypto assets.",
-            "image": ""
-        },
-        {
-            "id": 4,
             "title": "Keep track of your investments, anytime, anywhere",
             "description": "Track and manage seemlesly with realtime exchange values, review your portfolio anytime using your phone or web dashboard.",
-            "image": ""
+            "image": "/management/wallet.svg"
         }
         
     ]

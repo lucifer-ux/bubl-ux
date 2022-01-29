@@ -13,7 +13,7 @@ const Header = () => {
                 </Link>
             </div>
             <div className="btn-try" >
-                <FaBars id='bars'/>
+                
                 <a href="https://tally.so/r/nGkq2n" id='editable'><button>
                     Early Access
                 </button>
