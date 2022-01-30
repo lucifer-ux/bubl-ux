@@ -35,7 +35,7 @@ const Hero = () => {
 
 
                     <div className="right-side">
-                        <Image src="/logo.svg" layout="fill" className='edited' />
+                        <Image src="/LOGO.svg" layout="fill" className='edited' />
                     </div>
 
                 </div>
